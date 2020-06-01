@@ -26,7 +26,14 @@ const styles = theme => ({
   each: {
     width: '25%',
     height: '50px',
-    fontSize: '20px',
+    fontSize: '25px',
+    backgroundColor: 'blue',
+    color: ' white'
+  },
+  each2: {
+    width: '25%',
+    height: '52px',
+    fontSize: '25px',
     backgroundColor: 'blue',
     color: ' white'
   },
@@ -40,9 +47,10 @@ const styles = theme => ({
   textbox: {
     height: '60px',
     backgroundColor: '#bbb',
-    width: '100%',
+    width: '98%',
     fontSize:'25px',
     textAlign : 'right',
+    marginLeft:'0px'
   }
 });
 
@@ -252,7 +260,7 @@ operand1:""
                 <CardContent>
 
                   <input
-                    className={classes.textbox} id="display" type="text" readOnly value={this.state.operand1} label="Firstname" />
+                    className={classes.textbox} id="display" type="text" value={this.state.operand1} label="Firstname" />
                   <div className={classes.button}>
                     <button className={classes.each} value="C" id="C" onClick={(e)=>this.erase(e)}>C</button>
                     <button className={classes.each} value="&#177;" id="&#177;" onClick={(e)=>this.plusminus(e)}>&#177;</button>
@@ -288,7 +296,7 @@ operand1:""
                     <button className={classes.each} value="10^x" id="10^x" onClick={(e)=>this.powerten(e)}>10^x</button>
                    
                     <button className={classes.each} value="sqrt" id="sqrt" onClick={(e)=>this.operation(e)}>&#8730;</button>
-                    <button className={classes.each} value="cube" id="cube" onClick={(e)=>this.operation(e)}>&#8731;</button>
+                    <button className={classes.each2} value="cube" id="cube" onClick={(e)=>this.operation(e)}>&#8731;</button>
                     <button className={classes.each} value="pow2" id="pow2" onClick={(e)=>this.operation(e)}>x^2</button>
                     <button className={classes.each} value="x^y" id="x^y" onClick={(e)=>this.operation(e)}>x^y</button>
                     
