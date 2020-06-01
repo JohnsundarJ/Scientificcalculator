@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "427ecbd0809ad29d15001bfc78491204",
+    "revision": "0dc11ecbc3b78e035dbe37313d3322e2",
     "url": "/Scientificcalculator/index.html"
   },
   {
-    "revision": "d03101b5cb998d6437f2",
+    "revision": "8346622297c5be1b10f1",
     "url": "/Scientificcalculator/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Scientificcalculator/static/js/2.4906145d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d03101b5cb998d6437f2",
-    "url": "/Scientificcalculator/static/js/main.ab04c6b7.chunk.js"
+    "revision": "8346622297c5be1b10f1",
+    "url": "/Scientificcalculator/static/js/main.56c55965.chunk.js"
   },
   {
     "revision": "ee61790276e6e84593d2",
